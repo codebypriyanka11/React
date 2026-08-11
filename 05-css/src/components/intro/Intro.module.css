@@ -1,0 +1,13 @@
+.intro{
+  background-color:pink;
+  width: 100vh;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+gap: 50px;
+}
+.btn{
+  background-color: yellowgreen;
+}
