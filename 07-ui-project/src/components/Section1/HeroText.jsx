@@ -12,7 +12,6 @@ const HeroText = () => {
     xl:text-5xl
     font-bold">Prospective <br/> <span className='text-gray-600 '>customer</span> <br /> Segmentation </h3>
      <p className="text-[15px]
-     
     sm:text-base
     md:text-base
     lg:text-lg

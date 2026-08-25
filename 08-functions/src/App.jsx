@@ -1,4 +1,5 @@
 import React from 'react'
+import Scroll from './scroll'
 
 const App = () => {
   function btnClicked() {
@@ -9,7 +10,9 @@ const App = () => {
     console.log(val)
   }
 
-
+function onScrolling(){
+  console.log("screen scrolling")
+}
   return (
     <div>
       <h1>Hello,Priyanka</h1>
@@ -27,6 +30,8 @@ const App = () => {
       }} type="text" placeholder='second search bar' />
 
       <div className="box"></div>
+      
+      
     </div>
   )
 }
