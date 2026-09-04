@@ -46,7 +46,7 @@ const App = () => {
       <div className=" flex justify-center  gap-6 items-center p-4">
         <button
           style={{ opacity: index == 1 ? 0.5 : 1 }}
-          className='bg-amber-400 text-white text-sm active:scale-95 rounded px-4 py-2 '
+          className='bg-amber-400 text-white curser-pointer  text-sm active:scale-95 rounded px-4 py-2 '
           onClick={() => {
             // console.log('Prev button click')
             if (index > 1) {
