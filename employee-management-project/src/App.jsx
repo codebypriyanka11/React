@@ -1,10 +1,13 @@
 import React from 'react'
+import Login from './components/Auth/login'
 
 const App = () => {
   return (
-    <div className='p-5'>
-      App on my fellings
-    </div>
+   <>
+   <Login/>
+   
+   
+   </>
   )
 }
 
