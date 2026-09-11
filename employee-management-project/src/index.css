@@ -5,3 +5,9 @@
 body{
     background-color: #111;
 }
+#tasklist::-webkit-scrollbar{
+display: none;
+}
+#box::-webkit-scrollbar{
+    display: none;
+}
