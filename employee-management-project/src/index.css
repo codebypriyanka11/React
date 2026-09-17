@@ -11,3 +11,6 @@ display: none;
 #box::-webkit-scrollbar{
     display: none;
 }
+#alltask::-webkit-scrollbar{
+    display: none;
+}
