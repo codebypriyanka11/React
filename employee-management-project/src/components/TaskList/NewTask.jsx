@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewTask = ({data}) => {
   return (
-    <div id='box' className="flex-shrink-0  bg-red-400 h-full p-5 w-[300px] rounded-xl overflow-y-auto">
+    <div id='box1' className="flex-shrink-0  bg-red-600 h-full p-5 w-[300px] rounded-xl overflow-y-auto">
        <div className=" flex justify-between item-center ">
         <h3 className="bg-red-600 text-sm px-3 py-1 rounded-xl">{data.category} </h3>
         <h4 className='text-sm'>{data.taskDate} </h4>

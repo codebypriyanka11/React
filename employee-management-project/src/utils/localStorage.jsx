@@ -15,12 +15,12 @@ const employees = [
     "tasks": [
       {
         "active": true,
-        "newTask": true,
+        "newTask": false,
         "completed": false,
         "failed": false,
         "taskTitle": "Complete Project Documentation",
         "taskDescription": "Prepare and update the documentation for the current project.",
-        "taskDate": "2026-09-12",
+        "taskDate": "2026-10-12",
         "taskCategory": "Documentation"
       },
       {
